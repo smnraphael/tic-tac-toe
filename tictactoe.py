@@ -56,6 +56,7 @@ while playing:
             print("Winner is Player 1!")
         else:
             print("Winner is Player 2!")
+
     if turn > 8:
         playing = False
         clear()
