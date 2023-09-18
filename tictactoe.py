@@ -58,5 +58,7 @@ while playing:
             print("Winner is Player 2!")
     if turn > 8:
         playing = False
+        clear()
+        set_board(spot)
         if winner == False:
             print("No winner")
